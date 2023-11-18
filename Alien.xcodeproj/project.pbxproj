@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		805CB85A2A3A247E00730E1C /* AlienApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805CB8592A3A247E00730E1C /* AlienApp.swift */; };
-		805CB85C2A3A247E00730E1C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805CB85B2A3A247E00730E1C /* ContentView.swift */; };
+		805CB85C2A3A247E00730E1C /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805CB85B2A3A247E00730E1C /* WelcomeView.swift */; };
 		805CB85E2A3A248200730E1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 805CB85D2A3A248200730E1C /* Assets.xcassets */; };
 		805CB8612A3A248200730E1C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 805CB8602A3A248200730E1C /* Preview Assets.xcassets */; };
 		805CB86B2A3A248200730E1C /* AlienTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805CB86A2A3A248200730E1C /* AlienTests.swift */; };
@@ -17,6 +17,42 @@
 		805CB8852A3A27C300730E1C /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 805CB8842A3A27C300730E1C /* ComposableArchitecture */; };
 		805CB8882A3A280300730E1C /* SwiftProtobuf in Frameworks */ = {isa = PBXBuildFile; productRef = 805CB8872A3A280300730E1C /* SwiftProtobuf */; };
 		805CB88A2A3A280300730E1C /* WalletCore in Frameworks */ = {isa = PBXBuildFile; productRef = 805CB8892A3A280300730E1C /* WalletCore */; };
+		805CB88E2A3A56B500730E1C /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805CB88D2A3A56B500730E1C /* TitleView.swift */; };
+		805CB8902A3A669C00730E1C /* Color+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805CB88F2A3A669C00730E1C /* Color+Extras.swift */; };
+		805CB8922A3B1B7700730E1C /* WelcomeFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805CB8912A3B1B7700730E1C /* WelcomeFeature.swift */; };
+		805CB8952A3B1BBF00730E1C /* MnemonicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805CB8942A3B1BBF00730E1C /* MnemonicView.swift */; };
+		805CB8972A3B259000730E1C /* HDWallet+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805CB8962A3B259000730E1C /* HDWallet+Preview.swift */; };
+		805CB89A2A3B269000730E1C /* Array+Chunked.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805CB8992A3B269000730E1C /* Array+Chunked.swift */; };
+		805CB89F2A3B34D100730E1C /* AlienWallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805CB89E2A3B34D100730E1C /* AlienWallet.swift */; };
+		806061E92A3BBC4E00E27263 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = 806061E82A3BBC4E00E27263 /* KeychainAccess */; };
+		806061EB2A3BBCC100E27263 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806061EA2A3BBCC100E27263 /* RootView.swift */; };
+		806061ED2A3BC30800E27263 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806061EC2A3BC30800E27263 /* Storage.swift */; };
+		806061EF2A3BD0AD00E27263 /* ObservedObjectWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806061EE2A3BD0AD00E27263 /* ObservedObjectWrapper.swift */; };
+		806061F82A3D072E00E27263 /* SolanaBlockchainClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806061F72A3D072E00E27263 /* SolanaBlockchainClient.swift */; };
+		806061FA2A3D102300E27263 /* getVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806061F92A3D102300E27263 /* getVersion.swift */; };
+		806061FC2A3D102D00E27263 /* getAccountInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806061FB2A3D102D00E27263 /* getAccountInfo.swift */; };
+		806061FF2A3D5A2C00E27263 /* SolanaContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806061FE2A3D5A2C00E27263 /* SolanaContext.swift */; };
+		806062012A3D619100E27263 /* SolanaError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806062002A3D619100E27263 /* SolanaError.swift */; };
+		806062052A3D66F400E27263 /* getHealth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806062042A3D66F400E27263 /* getHealth.swift */; };
+		806062072A3D67B900E27263 /* SolanaRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806062062A3D67B900E27263 /* SolanaRequest.swift */; };
+		806062092A3D6B8200E27263 /* CryptoAmount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806062082A3D6B8200E27263 /* CryptoAmount.swift */; };
+		8060620B2A3D6C7600E27263 /* UInt64+CryptoAmount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8060620A2A3D6C7600E27263 /* UInt64+CryptoAmount.swift */; };
+		8060620D2A3D80C600E27263 /* getTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8060620C2A3D80C600E27263 /* getTransaction.swift */; };
+		8060620F2A3D814900E27263 /* getSignaturesForAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8060620E2A3D814900E27263 /* getSignaturesForAddress.swift */; };
+		806062112A3D81AE00E27263 /* getFeeForMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806062102A3D81AE00E27263 /* getFeeForMessage.swift */; };
+		8060621F2A3DE54C00E27263 /* simulateTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8060621E2A3DE54C00E27263 /* simulateTransaction.swift */; };
+		806062212A3E015200E27263 /* getFirstAvailableBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806062202A3E015200E27263 /* getFirstAvailableBlock.swift */; };
+		806062232A3E02CF00E27263 /* getBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806062222A3E02CF00E27263 /* getBlock.swift */; };
+		806062252A3E640100E27263 /* getBlockProduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806062242A3E640100E27263 /* getBlockProduction.swift */; };
+		806062272A3E66BC00E27263 /* getRecentBlockhash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806062262A3E66BC00E27263 /* getRecentBlockhash.swift */; };
+		806062292A3F11FE00E27263 /* SolanaResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806062282A3F11FE00E27263 /* SolanaResponse.swift */; };
+		8060622B2A3F8BB600E27263 /* BlockchainClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8060622A2A3F8BB600E27263 /* BlockchainClient.swift */; };
+		8060622D2A3F8BEA00E27263 /* String+DebugUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8060622C2A3F8BEA00E27263 /* String+DebugUtils.swift */; };
+		8060622F2A3F8D0700E27263 /* Data+DebugUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8060622E2A3F8D0700E27263 /* Data+DebugUtils.swift */; };
+		806062322A3F8E0900E27263 /* SolanaAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806062312A3F8E0900E27263 /* SolanaAPI.swift */; };
+		806062352A3F8E6100E27263 /* SolanaAPI+SimulateTx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806062342A3F8E6100E27263 /* SolanaAPI+SimulateTx.swift */; };
+		806062372A3F8F0600E27263 /* SolanaAPI+SimulateTx+Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806062362A3F8F0600E27263 /* SolanaAPI+SimulateTx+Response.swift */; };
+		806062392A3F8F3A00E27263 /* SolanaAPI+SimulateTx+Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806062382A3F8F3A00E27263 /* SolanaAPI+SimulateTx+Request.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +75,7 @@
 /* Begin PBXFileReference section */
 		805CB8562A3A247E00730E1C /* Alien.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alien.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		805CB8592A3A247E00730E1C /* AlienApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlienApp.swift; sourceTree = "<group>"; };
-		805CB85B2A3A247E00730E1C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		805CB85B2A3A247E00730E1C /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		805CB85D2A3A248200730E1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		805CB8602A3A248200730E1C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		805CB8662A3A248200730E1C /* AlienTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlienTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +83,41 @@
 		805CB8702A3A248200730E1C /* AlienUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlienUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		805CB8742A3A248200730E1C /* AlienUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlienUITests.swift; sourceTree = "<group>"; };
 		805CB8762A3A248200730E1C /* AlienUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlienUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		805CB88D2A3A56B500730E1C /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		805CB88F2A3A669C00730E1C /* Color+Extras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extras.swift"; sourceTree = "<group>"; };
+		805CB8912A3B1B7700730E1C /* WelcomeFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeFeature.swift; sourceTree = "<group>"; };
+		805CB8942A3B1BBF00730E1C /* MnemonicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MnemonicView.swift; sourceTree = "<group>"; };
+		805CB8962A3B259000730E1C /* HDWallet+Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HDWallet+Preview.swift"; sourceTree = "<group>"; };
+		805CB8992A3B269000730E1C /* Array+Chunked.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Chunked.swift"; sourceTree = "<group>"; };
+		805CB89E2A3B34D100730E1C /* AlienWallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlienWallet.swift; sourceTree = "<group>"; };
+		806061EA2A3BBCC100E27263 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		806061EC2A3BC30800E27263 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		806061EE2A3BD0AD00E27263 /* ObservedObjectWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedObjectWrapper.swift; sourceTree = "<group>"; };
+		806061F72A3D072E00E27263 /* SolanaBlockchainClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolanaBlockchainClient.swift; sourceTree = "<group>"; };
+		806061F92A3D102300E27263 /* getVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getVersion.swift; sourceTree = "<group>"; };
+		806061FB2A3D102D00E27263 /* getAccountInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getAccountInfo.swift; sourceTree = "<group>"; };
+		806061FE2A3D5A2C00E27263 /* SolanaContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolanaContext.swift; sourceTree = "<group>"; };
+		806062002A3D619100E27263 /* SolanaError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolanaError.swift; sourceTree = "<group>"; };
+		806062042A3D66F400E27263 /* getHealth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getHealth.swift; sourceTree = "<group>"; };
+		806062062A3D67B900E27263 /* SolanaRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolanaRequest.swift; sourceTree = "<group>"; };
+		806062082A3D6B8200E27263 /* CryptoAmount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoAmount.swift; sourceTree = "<group>"; };
+		8060620A2A3D6C7600E27263 /* UInt64+CryptoAmount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UInt64+CryptoAmount.swift"; sourceTree = "<group>"; };
+		8060620C2A3D80C600E27263 /* getTransaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getTransaction.swift; sourceTree = "<group>"; };
+		8060620E2A3D814900E27263 /* getSignaturesForAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getSignaturesForAddress.swift; sourceTree = "<group>"; };
+		806062102A3D81AE00E27263 /* getFeeForMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getFeeForMessage.swift; sourceTree = "<group>"; };
+		8060621E2A3DE54C00E27263 /* simulateTransaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simulateTransaction.swift; sourceTree = "<group>"; };
+		806062202A3E015200E27263 /* getFirstAvailableBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getFirstAvailableBlock.swift; sourceTree = "<group>"; };
+		806062222A3E02CF00E27263 /* getBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getBlock.swift; sourceTree = "<group>"; };
+		806062242A3E640100E27263 /* getBlockProduction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = getBlockProduction.swift; sourceTree = "<group>"; };
+		806062262A3E66BC00E27263 /* getRecentBlockhash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getRecentBlockhash.swift; sourceTree = "<group>"; };
+		806062282A3F11FE00E27263 /* SolanaResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolanaResponse.swift; sourceTree = "<group>"; };
+		8060622A2A3F8BB600E27263 /* BlockchainClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockchainClient.swift; sourceTree = "<group>"; };
+		8060622C2A3F8BEA00E27263 /* String+DebugUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+DebugUtils.swift"; sourceTree = "<group>"; };
+		8060622E2A3F8D0700E27263 /* Data+DebugUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+DebugUtils.swift"; sourceTree = "<group>"; };
+		806062312A3F8E0900E27263 /* SolanaAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolanaAPI.swift; sourceTree = "<group>"; };
+		806062342A3F8E6100E27263 /* SolanaAPI+SimulateTx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SolanaAPI+SimulateTx.swift"; sourceTree = "<group>"; };
+		806062362A3F8F0600E27263 /* SolanaAPI+SimulateTx+Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SolanaAPI+SimulateTx+Response.swift"; sourceTree = "<group>"; };
+		806062382A3F8F3A00E27263 /* SolanaAPI+SimulateTx+Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SolanaAPI+SimulateTx+Request.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +125,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				806061E92A3BBC4E00E27263 /* KeychainAccess in Frameworks */,
 				805CB88A2A3A280300730E1C /* WalletCore in Frameworks */,
 				805CB8852A3A27C300730E1C /* ComposableArchitecture in Frameworks */,
 				805CB8882A3A280300730E1C /* SwiftProtobuf in Frameworks */,
@@ -101,9 +173,15 @@
 			isa = PBXGroup;
 			children = (
 				805CB8592A3A247E00730E1C /* AlienApp.swift */,
-				805CB85B2A3A247E00730E1C /* ContentView.swift */,
-				805CB85D2A3A248200730E1C /* Assets.xcassets */,
-				805CB85F2A3A248200730E1C /* Preview Content */,
+				806061F62A3D071C00E27263 /* Services */,
+				806061EA2A3BBCC100E27263 /* RootView.swift */,
+				806061EC2A3BC30800E27263 /* Storage.swift */,
+				806061EE2A3BD0AD00E27263 /* ObservedObjectWrapper.swift */,
+				805CB89D2A3B34B200730E1C /* Models */,
+				805CB89C2A3B2CB700730E1C /* WelcomeFeature */,
+				805CB8982A3B267100730E1C /* Extensions */,
+				805CB8932A3B1BB700730E1C /* Views */,
+				805CB89B2A3B274800730E1C /* SupportingFiles */,
 			);
 			path = Alien;
 			sourceTree = "<group>";
@@ -133,6 +211,131 @@
 			path = AlienUITests;
 			sourceTree = "<group>";
 		};
+		805CB8932A3B1BB700730E1C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				805CB8942A3B1BBF00730E1C /* MnemonicView.swift */,
+				805CB88D2A3A56B500730E1C /* TitleView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		805CB8982A3B267100730E1C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				805CB8992A3B269000730E1C /* Array+Chunked.swift */,
+				805CB88F2A3A669C00730E1C /* Color+Extras.swift */,
+				806062082A3D6B8200E27263 /* CryptoAmount.swift */,
+				805CB8962A3B259000730E1C /* HDWallet+Preview.swift */,
+				8060620A2A3D6C7600E27263 /* UInt64+CryptoAmount.swift */,
+				8060622C2A3F8BEA00E27263 /* String+DebugUtils.swift */,
+				8060622E2A3F8D0700E27263 /* Data+DebugUtils.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		805CB89B2A3B274800730E1C /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				805CB85D2A3A248200730E1C /* Assets.xcassets */,
+				805CB85F2A3A248200730E1C /* Preview Content */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		805CB89C2A3B2CB700730E1C /* WelcomeFeature */ = {
+			isa = PBXGroup;
+			children = (
+				805CB85B2A3A247E00730E1C /* WelcomeView.swift */,
+				805CB8912A3B1B7700730E1C /* WelcomeFeature.swift */,
+			);
+			path = WelcomeFeature;
+			sourceTree = "<group>";
+		};
+		805CB89D2A3B34B200730E1C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				805CB89E2A3B34D100730E1C /* AlienWallet.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		806061F62A3D071C00E27263 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				806062032A3D64E100E27263 /* Solana */,
+				8060622A2A3F8BB600E27263 /* BlockchainClient.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		806061FD2A3D5A2200E27263 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				806061FE2A3D5A2C00E27263 /* SolanaContext.swift */,
+				806062002A3D619100E27263 /* SolanaError.swift */,
+				806062062A3D67B900E27263 /* SolanaRequest.swift */,
+				806062282A3F11FE00E27263 /* SolanaResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		806062022A3D64CB00E27263 /* Endpoints */ = {
+			isa = PBXGroup;
+			children = (
+				806062122A3D81B800E27263 /* TODO */,
+				806061FB2A3D102D00E27263 /* getAccountInfo.swift */,
+				806062222A3E02CF00E27263 /* getBlock.swift */,
+				806062242A3E640100E27263 /* getBlockProduction.swift */,
+				806062202A3E015200E27263 /* getFirstAvailableBlock.swift */,
+				806062042A3D66F400E27263 /* getHealth.swift */,
+				806061F92A3D102300E27263 /* getVersion.swift */,
+				8060621E2A3DE54C00E27263 /* simulateTransaction.swift */,
+				806062262A3E66BC00E27263 /* getRecentBlockhash.swift */,
+			);
+			path = Endpoints;
+			sourceTree = "<group>";
+		};
+		806062032A3D64E100E27263 /* Solana */ = {
+			isa = PBXGroup;
+			children = (
+				806062312A3F8E0900E27263 /* SolanaAPI.swift */,
+				806061F72A3D072E00E27263 /* SolanaBlockchainClient.swift */,
+				806062302A3F8DE300E27263 /* API */,
+				806062332A3F8E3600E27263 /* SimulateTransaction */,
+				806062022A3D64CB00E27263 /* Endpoints */,
+				806061FD2A3D5A2200E27263 /* Models */,
+			);
+			name = Solana;
+			sourceTree = "<group>";
+		};
+		806062122A3D81B800E27263 /* TODO */ = {
+			isa = PBXGroup;
+			children = (
+				8060620E2A3D814900E27263 /* getSignaturesForAddress.swift */,
+				806062102A3D81AE00E27263 /* getFeeForMessage.swift */,
+				8060620C2A3D80C600E27263 /* getTransaction.swift */,
+			);
+			path = TODO;
+			sourceTree = "<group>";
+		};
+		806062302A3F8DE300E27263 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		806062332A3F8E3600E27263 /* SimulateTransaction */ = {
+			isa = PBXGroup;
+			children = (
+				806062342A3F8E6100E27263 /* SolanaAPI+SimulateTx.swift */,
+				806062382A3F8F3A00E27263 /* SolanaAPI+SimulateTx+Request.swift */,
+				806062362A3F8F0600E27263 /* SolanaAPI+SimulateTx+Response.swift */,
+			);
+			path = SimulateTransaction;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -153,6 +356,7 @@
 				805CB8842A3A27C300730E1C /* ComposableArchitecture */,
 				805CB8872A3A280300730E1C /* SwiftProtobuf */,
 				805CB8892A3A280300730E1C /* WalletCore */,
+				806061E82A3BBC4E00E27263 /* KeychainAccess */,
 			);
 			productName = Alien;
 			productReference = 805CB8562A3A247E00730E1C /* Alien.app */;
@@ -230,6 +434,7 @@
 			packageReferences = (
 				805CB8832A3A27C300730E1C /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
 				805CB8862A3A280300730E1C /* XCRemoteSwiftPackageReference "wallet-core" */,
+				806061E72A3BBC4E00E27263 /* XCRemoteSwiftPackageReference "KeychainAccess" */,
 			);
 			productRefGroup = 805CB8572A3A247E00730E1C /* Products */;
 			projectDirPath = "";
@@ -273,8 +478,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				805CB85C2A3A247E00730E1C /* ContentView.swift in Sources */,
+				805CB89F2A3B34D100730E1C /* AlienWallet.swift in Sources */,
+				806061FF2A3D5A2C00E27263 /* SolanaContext.swift in Sources */,
+				806061ED2A3BC30800E27263 /* Storage.swift in Sources */,
+				806062372A3F8F0600E27263 /* SolanaAPI+SimulateTx+Response.swift in Sources */,
+				806061F82A3D072E00E27263 /* SolanaBlockchainClient.swift in Sources */,
+				805CB8922A3B1B7700730E1C /* WelcomeFeature.swift in Sources */,
+				805CB85C2A3A247E00730E1C /* WelcomeView.swift in Sources */,
+				806062322A3F8E0900E27263 /* SolanaAPI.swift in Sources */,
+				806061EF2A3BD0AD00E27263 /* ObservedObjectWrapper.swift in Sources */,
+				8060620D2A3D80C600E27263 /* getTransaction.swift in Sources */,
+				8060622B2A3F8BB600E27263 /* BlockchainClient.swift in Sources */,
+				805CB8952A3B1BBF00730E1C /* MnemonicView.swift in Sources */,
+				806062252A3E640100E27263 /* getBlockProduction.swift in Sources */,
+				806062212A3E015200E27263 /* getFirstAvailableBlock.swift in Sources */,
+				806061EB2A3BBCC100E27263 /* RootView.swift in Sources */,
+				806062272A3E66BC00E27263 /* getRecentBlockhash.swift in Sources */,
+				8060620F2A3D814900E27263 /* getSignaturesForAddress.swift in Sources */,
+				806062292A3F11FE00E27263 /* SolanaResponse.swift in Sources */,
+				806062232A3E02CF00E27263 /* getBlock.swift in Sources */,
+				805CB8972A3B259000730E1C /* HDWallet+Preview.swift in Sources */,
+				806062352A3F8E6100E27263 /* SolanaAPI+SimulateTx.swift in Sources */,
+				806062052A3D66F400E27263 /* getHealth.swift in Sources */,
+				806062112A3D81AE00E27263 /* getFeeForMessage.swift in Sources */,
+				806062072A3D67B900E27263 /* SolanaRequest.swift in Sources */,
+				805CB8902A3A669C00730E1C /* Color+Extras.swift in Sources */,
+				806062392A3F8F3A00E27263 /* SolanaAPI+SimulateTx+Request.swift in Sources */,
+				806061FC2A3D102D00E27263 /* getAccountInfo.swift in Sources */,
+				805CB89A2A3B269000730E1C /* Array+Chunked.swift in Sources */,
+				8060622D2A3F8BEA00E27263 /* String+DebugUtils.swift in Sources */,
 				805CB85A2A3A247E00730E1C /* AlienApp.swift in Sources */,
+				8060621F2A3DE54C00E27263 /* simulateTransaction.swift in Sources */,
+				8060622F2A3F8D0700E27263 /* Data+DebugUtils.swift in Sources */,
+				806062012A3D619100E27263 /* SolanaError.swift in Sources */,
+				806061FA2A3D102300E27263 /* getVersion.swift in Sources */,
+				806062092A3D6B8200E27263 /* CryptoAmount.swift in Sources */,
+				8060620B2A3D6C7600E27263 /* UInt64+CryptoAmount.swift in Sources */,
+				805CB88E2A3A56B500730E1C /* TitleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,10 +672,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Alien/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Alien/SupportingFiles/Preview Content\"";
 				DEVELOPMENT_TEAM = FJKBR6T662;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Alien wllt";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -446,7 +687,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.area51.Alien;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.alex82.alien;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -461,10 +702,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Alien/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Alien/SupportingFiles/Preview Content\"";
 				DEVELOPMENT_TEAM = FJKBR6T662;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Alien wllt";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -475,7 +717,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.area51.Alien;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.alex82.alien;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -617,6 +859,14 @@
 				minimumVersion = 3.0.0;
 			};
 		};
+		806061E72A3BBC4E00E27263 /* XCRemoteSwiftPackageReference "KeychainAccess" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:kishikawakatsumi/KeychainAccess.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -634,6 +884,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 805CB8862A3A280300730E1C /* XCRemoteSwiftPackageReference "wallet-core" */;
 			productName = WalletCore;
+		};
+		806061E82A3BBC4E00E27263 /* KeychainAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 806061E72A3BBC4E00E27263 /* XCRemoteSwiftPackageReference "KeychainAccess" */;
+			productName = KeychainAccess;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

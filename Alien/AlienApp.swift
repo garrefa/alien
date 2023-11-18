@@ -6,7 +6,10 @@ import SwiftUI
 struct AlienApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack {
+                RootView()
+            }
+            .environmentObject(StorageFactory.keychain)
         }
     }
 }
